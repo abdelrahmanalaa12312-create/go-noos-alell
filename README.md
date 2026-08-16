@@ -1,13 +1,43 @@
-# جوع نص الليل — Netlify Ready
+# 🌙 جوع نص الليل | Go Noos Alell
 
-ضع ملف APK الحقيقي باسم `public/go3noss.apk`.
+## 🇸🇦 نبذة عن المشروع
 
-ارفع المشروع إلى GitHub ثم اربطه بـ Netlify، أو استخدم Netlify CLI. لا تحتاج إلى `npm start` على Netlify.
+**جوع نص الليل** هو تطبيق ويب يساعد المستخدم على اكتشاف وصفات وأفكار سريعة ولذيذة مناسبة عندما يشعر بالجوع، خصوصًا في أوقات الليل.
 
-الـAPI:
-- /api/recipes
-- /api/recipes/:id
-- /api/categories
-- /api/health
+تم تصميم المشروع ليكون بسيطًا وسهل الاستخدام، مع واجهة عربية ودعم للوصفات والتصنيفات وواجهة API.
 
-الموقع يستخدم Netlify Functions مع Express وserverless-http.
+---
+
+## ✨ مميزات المشروع
+
+- 🍔 عرض وصفات وأفكار للطعام.
+- 🔎 البحث عن الوصفات.
+- 🗂️ تصنيف الوصفات حسب النوع.
+- 📱 تصميم مناسب للهواتف والأجهزة المختلفة.
+- 🌙 واجهة مناسبة للاستخدام الليلي.
+- ⚡ API للتعامل مع بيانات الوصفات.
+- 🔐 صفحة خاصة بالخصوصية.
+- ☁️ جاهز للنشر باستخدام Netlify.
+- 🚀 استخدام Netlify Functions للوظائف الخلفية.
+
+---
+
+## 📁 ترتيب ملفات المشروع
+
+```text
+go-noos-alell/
+│
+├── netlify.toml
+├── package.json
+├── README.md
+│
+├── public/
+│   ├── index.html
+│   ├── privacy.html
+│   ├── style.css
+│   ├── script.js
+│   └── app-screenshot.png
+│
+└── netlify/
+    └── functions/
+        └── api.js
